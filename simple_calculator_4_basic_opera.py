@@ -1,4 +1,5 @@
-
+#   Write a Python Program to Make a Simple Calculator 
+        # with 4 basic mathematical operations
 
   # This function add two numbers
 def add(x,y):
