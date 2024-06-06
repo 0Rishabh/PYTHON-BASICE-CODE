@@ -1,12 +1,8 @@
 
- #   Write a Python Program to Make a Simple Calculator 
-        # with 4 basic mathematical operations
-
-
 
   # This function add two numbers
 def add(x,y):
-    return x + y
+   return x + y
 
   # This function subtracts two numbers
 def subtract(x , y):
@@ -44,16 +40,16 @@ while True:
                  continue
             
             if choice == '1':
-                 print(f"{num1} + {num2} = {num1+num2}")
+                 print(f"{num1} + {num2} = {add(num1,num2)}")
 
             elif choice == '2':
-                 print(f"{num1} - {num2} = {num1-num2}")
+                 print(f"{num1} - {num2} = {subtract(num1,num2)}")
 
             elif choice == '3':
-                 print(f"{num1} x {num2} = {num1*num2}")
+                 print(f"{num1} x {num2} = {multiply(num1,num2)}")
 
             elif choice == '4':
-                 print(f"{num1} / {num2} = {num1/num2}")
+                 print(f"{num1} / {num2} = {divide(num1,num2)}")
 
 
       # check if user wants another calculation
@@ -65,4 +61,4 @@ while True:
             
        else:
             print("Invalid Input:")  
-          
+        
